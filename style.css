@@ -1,6 +1,34 @@
-div.header {
-	background-color: #333;
-	color: #fff;
+:root {
+	--primary: #42A3A7;
+	--bg : #8BDF91;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: linear-gradient(#006E4A,#EEE8A9);
+}
+
+.header span {
+	color: var(--bg);
+}
+
+.nav {
+	color: var(--bg);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav a:hover {
+	color: #ffd700;
+}
+
+.header {
+	background-color: var(--primary);
+	color: #928616;
 	padding: 20px;
 	display: flex;
 	justify-content: space-between;
@@ -21,7 +49,7 @@ nav ul li:last-child {
 }
 
 nav ul li a {
-	color: #fff;
+	color: #83764F;
 	text-decoration: none;
 }
 
